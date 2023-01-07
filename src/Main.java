@@ -4,7 +4,7 @@ public class Main
 {
     public static void main( String[] args )
     {
-        int n1, n2, suma;
+        int n1, n2, suma, resta;
 
         Scanner teclado = new Scanner( System.in );
 
@@ -15,7 +15,8 @@ public class Main
         n2 = teclado.nextInt();
 
         suma = n1 + n2;
-
+        resta = n1 - n2;
         System.out.println( "La suma de " + n1 + " más " + n2 + " es " + suma + "." );
+        System.out.println( "La resta de " + n1 + " menos " + n2 + " es " + resta + "." );
     }
 }
